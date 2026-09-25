@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #c1c8d1;
+}
+
+.auth-box {
+    width: 350px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.auth-box h1 {
+    margin-bottom: 25px;
+}
+
+.auth-box input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+.auth-box button,
+.dashboard button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.auth-box button:hover,
+.dashboard button:hover {
+    background: #1d4ed8;
+}
+
+.auth-box p {
+    margin-top: 15px;
+}
+
+.password-info {
+    font-size: 12px;
+    color: #777;
+    text-align: left;
+}
+
+#message {
+    color: #dc2626;
+}
+
+.dashboard {
+    background: white;
+
+    padding: 40px;
+
+    width: 350px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+    margin-bottom: 15px;
+}
+
+.dashboard button {
+    margin-top: 25px;
+}
+
+.dashboard  h2{
+    margin-left: 10;
+    border-radius: 10;
+}
